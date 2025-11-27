@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Paris",
+    "image": "/images/paris.jpg",
+    "description": "The city of lights known for art, food, and historic sights."
+  },
+  {
+    "id": 2,
+    "name": "Tokyo",
+    "image": "/images/tokyo.jpg",
+    "description": "A vibrant city mixing culture, technology, and tradition."
+  },
+  {
+    "id": 3,
+    "name": "Vancouver",
+    "image": "/images/vancouver.jpg",
+    "description": "A scenic coastal city surrounded by mountains and nature."
+  }
+]
