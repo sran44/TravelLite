@@ -1,0 +1,44 @@
+.header {
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:16px;
+  padding:12px 20px;
+  background:linear-gradient(90deg,#ffffff, #f8fafc);
+  box-shadow: 0 1px 6px rgba(16,24,40,0.06);
+  position:sticky;
+  top:0;
+  z-index:30;
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.logo{
+  font-weight:700;
+  font-size:20px;
+  color:var(--accent);
+}
+
+.nav{
+  display:flex;
+  gap:12px;
+  align-items:center;
+}
+
+.link{
+  padding:8px 10px;
+  border-radius:8px;
+  font-weight:600;
+  color:var(--muted);
+}
+
+.link:hover { background: rgba(15,110,253,0.06); color:var(--accent); }
+
+.active {
+  background: rgba(15,110,253,0.08);
+  color:var(--accent);
+}

@@ -1,0 +1,39 @@
+.container{ 
+    max-width:720px; 
+    margin:0 auto; 
+    background:var(--card); 
+    padding:20px; 
+    border-radius:12px; 
+    box-shadow: 0 6px 20px rgba(17,24,39,0.04); 
+}
+.form{ 
+    display:flex; 
+    flex-direction:column; 
+    gap:12px; 
+}
+.form label{ 
+    display:flex; 
+    flex-direction:column; 
+    gap:6px; 
+    font-weight:600; 
+    color:#111827; 
+}
+.form input, .form textarea { 
+    padding:10px; 
+    border-radius:8px; 
+    border:1px solid #e6edf3; 
+}
+.actions{ 
+    display:flex; 
+    gap:12px; 
+    justify-content:flex-end; 
+    margin-top:8px; 
+}
+.primary{ 
+    background:var(--accent); 
+    color:white; 
+    border:none; 
+    padding:10px 14px; 
+    border-radius:8px; 
+    cursor:pointer; 
+}
