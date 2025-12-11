@@ -1,4 +1,5 @@
 .card {
+<<<<<<< HEAD
   width: 300px;
   background: #fff;
   border-radius: 12px;
@@ -42,4 +43,26 @@
 
 .favBtn:hover {
   background: #e5e7eb;
+=======
+  width: 260px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  background: white;
+}
+
+.img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.button {
+  padding: 8px 10px;
+  border: none;
+  background: black;
+  color: white;
+  margin-top: 10px;
+  cursor: pointer;
+>>>>>>> 883e66deee431af052336e6be0ed799fad9e6e91
 }

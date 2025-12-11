@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useContext } from "react";
 import { DestinationsContext } from "./_app";
 import Link from "next/link";
@@ -47,5 +48,20 @@ export default function FavouritesPage() {
         </div>
       )}
     </div>
+=======
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+
+export default function Favourites() {
+  return (
+    <>
+      <Navbar />
+      <main style={{ padding: "20px" }}>
+        <h1>Your Favourites</h1>
+        <p>Favourites feature will be added in Phase 2.</p>
+      </main>
+      <Footer />
+    </>
+>>>>>>> 883e66deee431af052336e6be0ed799fad9e6e91
   );
 }

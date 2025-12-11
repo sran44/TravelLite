@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import "../styles/globals.css";
 import Layout from "../components/Layout";
 import { createContext, useEffect, useState } from "react";
@@ -64,3 +65,10 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
+=======
+import "@/styles/globals.css";
+
+export default function App({ Component, pageProps }) {
+  return <Component {...pageProps} />;
+}
+>>>>>>> 883e66deee431af052336e6be0ed799fad9e6e91

@@ -1,4 +1,5 @@
 import { useRouter } from "next/router";
+<<<<<<< HEAD
 import React, { useContext, useMemo } from "react";
 import { DestinationsContext } from "../_app";
 import styles from "../../styles/Destination.module.css";
@@ -101,5 +102,29 @@ export default function DestinationDetail() {
         <p>{dest.description || dest.summary}</p>
       </section>
     </div>
+=======
+import destinations from "../../data/destinations.json";
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
+
+export default function DestinationDetails() {
+  const router = useRouter();
+  const { id } = router.query;
+
+  const destination = destinations.find((d) => d.id.toString() === id);
+
+  if (!destination) return <p>Loading...</p>;
+
+  return (
+    <>
+      <Navbar />
+      <main style={{ padding: "20px" }}>
+        <h1>{destination.name}</h1>
+        <img src={destination.image} width="300" />
+        <p>{destination.description}</p>
+      </main>
+      <Footer />
+    </>
+>>>>>>> 883e66deee431af052336e6be0ed799fad9e6e91
   );
 }
